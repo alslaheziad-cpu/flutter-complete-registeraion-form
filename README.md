@@ -1,16 +1,21 @@
-# hw1mobile
+// الاسم/ زياد عبده سعيد ناصر
+ # flutter-complete-registeraion-form
+هذا التطبيق عبارة عن نموذج تسجيل متكامل (Registration Form App) تم بناؤه باستخدام Flutter بهدف جمع بيانات المستخدم بشكل منسّق وسهل الاستخدام.
+الميزات الرئيسية:
 
-A new Flutter project.
+نماذج مُعاد استخدامها: استخدام widgets مُخصصة (TextForm, DropdownForm) لسهولة الصيانة وقابلية إعادة الاستخدام.
 
-## Getting Started
+تحقق متقدم: تطبيق قواعد تحقق مختلفة لكل حقل باستخدام GlobalKey<FormState> لضمان دقة البيانات المدخلة.
 
-This project is a starting point for a Flutter application.
+تفاعلات متنوعة: تضمين أشرطة تمرير (Sliders) لتقييم الرضا والمدى المالي، ومفاتيح تبديل (Switches) للاشتراكات، ومربعات اختيار للمهارات (Chip/Wrap).
 
-A few resources to get you started if this is your first Flutter project:
+اختيار التاريخ والوقت: استخدام أدوات اختيار التاريخ والوقت المدمجة في Flutter (showDatePicker و showTimePicker) بشكل صحيح.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+تصميم نظيف: واجهة مستخدم بسيطة وواضحة (Clean UI) تركز على تجربة الإدخال السلسة والمريح
+- التكنولوجيا المستخدمة
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+لغة البرمجة: Dart
+
+الإطار: Flutter SDK
+
+النمط: Stateful Widgets (لإدارة حالة النموذج المعقدة)
